@@ -1,0 +1,7 @@
+Pasos para una App Web
+1. Sketch Web (un boceto de lo va ser la pagina)
+    herramientas: figma.com / invisionapp.com
+2. Wireframe
+3. Prototipo Estatico
+4. Prototipo Dinamico
+5. Deploy

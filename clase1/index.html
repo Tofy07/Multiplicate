@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--Todos los documentos HTML deben comenzar con una 
+<!DOCTYPE>declaración.La declaración no es una etiqueta HTML. 
+Es una "información" para el navegador sobre qué tipo de documento esperar.
+En HTML 5, la declaración es simple:-->
+<html lang="en">
+<!--es identificar el idioma de toda la página y 
+luego podemos especificar idiomas diferentes en elementos internos-->
+<head>
+<!--Es para indicar la cabeza de tu documento. 
+No debes confundir esto con header que se define más adelante.-->
+    <meta charset="UTF-8">
+<!--Con esto defines el tipo de codificación 
+ del documento por ejemplo utf-8
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+<!--Sirve para especificar el título del documento. 
+Este aparece en la barra del navegador. Esta es muy importante incluirla
+ a los documentos creados, ya que la asociamos a una identidad por medio de su título.-->
+</head>
+
+<body><!--Estructura de la pagina-->
+    <header>
+<!--En esta sección va  la cabecera de tu sitio web.
+ El nombre, slogan y logo deben ir aquí.-->
+        <h1>Lección 2 de HTML5</h1>
+        <h2>Cómo ser experto en html5</h2>
+    <nav>
+<!--Es la principal barra de navegación o menú de navegación de tu sitio web.
+La posición y el estilo lo defines mediante CSS. 
+Regularmente dentro de NAV estarán <ul> y <li>, que te sirven para dar forma
+ y estilo a tu menú.-->
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Programas</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    </header>
+<main>
+<!--representa el contenido principal del <body> de un documento o aplicación.--> 
+    <h2>buen dia a todos</h2>
+    <section>
+<!--Es la sección dónde va el contenido de tu sitio. Este a su vez puede agrupar articles-->
+        <article>
+<!--Como su nombre lo indica, contiene un artículo. A su vez cada
+ARTICLE puede contener etiquetas <h2> para definir el título del artículo. 
+Se recomienda que haya solo un <H1> por cada página que representa el título
+ de tu página. A google no le gustan muchos <h1>, esto para tomarlo en cuenta
+ en tu estrategia seo.-->
+            <h2>Titulo del articulo</h2>
+            <p>Aqui va el artículo</p>
+            <img src="../clase1/imagenes/estructura-de-una-pagina-en-HTML5.jpg">
+            <img src="../clase1/imagenes/Estructura-html4-html5.png">				
+        </article>
+    </section>
+    <aside>
+<!--Contiene una barra lateral, como para poner enlaces a facebook, twitter y demás.
+ Así divides el cuerpo de tu página en dos columnas. Una donde va el contenido, artículos, etc
+ y otro donde van banners, ligas, etc.-->
+        <h2>ASIDE</h2>
+        <p>Puede haber mas de uno, y se les da formato diferente asignándoles ID o CLASS
+             con CSS</p>
+    </aside>
+</main>
+    <footer>
+<!--Como su nombre lo indica este contiene el pie de página de tu sitio.-->
+        <h2>FOOTER</h2>
+        <p>Aqui todo el contenido del footer</p>
+    </footer>
+</body>
+</html>
